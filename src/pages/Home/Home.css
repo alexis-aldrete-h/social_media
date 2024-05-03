@@ -1,0 +1,64 @@
+body {
+    width: 100vw;
+    height: 190vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-section{
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-post-container{
+    width: 90%;
+    height: 90%;
+    background-image: url("../../assets/images/post1.jpg");
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    border-radius: 40px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.text-container{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+    color: white;
+}
+
+.category-title{
+    width: 100%;
+    height: 10%;
+    text-align: left;
+    font-size: 1.3rem
+}
+
+.post-title{
+    width: 100%;
+    height: 30%;
+    text-align: left;
+    font-size: 1.5rem
+}
+
+.post-caption{
+    width: 100%;
+    height: 60%;
+    text-align: justify;
+    font-size: 1.3rem
+}
+
+
+.secondary-section{
+    background-color: green;
+    width: 100%;
+    height: 50%;
+}

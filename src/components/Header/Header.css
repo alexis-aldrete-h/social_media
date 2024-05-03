@@ -1,0 +1,67 @@
+.header {
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+  
+.navbar-logo {
+    width: 25%;
+}
+
+.navbar-logo h1{
+    color: black;
+}
+  
+.navbar-links {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+  
+.navbar-links a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    width: 100%;
+}
+
+.navbar-buttons{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+  
+.navbar-buttons button {
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 2.4rem;  
+}
+  
+.btn-signup {
+    background-color: white;
+    color: black;
+    width: 40%;
+}
+  
+.btn-login {
+    background-color: black;
+    color: white;
+    width: 50%;
+}
